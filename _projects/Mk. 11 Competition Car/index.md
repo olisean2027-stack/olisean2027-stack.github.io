@@ -29,6 +29,8 @@ The initial stages of the design cycle required a robust first-principles approa
 6. Standardization - I decided to push for standardization of the hardware and design of the enclosures, and maintain maximal uniformity of the design across the car.
 7. Redundancy - In case of potential failure, I wanted to account for that by adding some redundancy to the design,
 8. Reliability - Minimizing the amount of maintenance required is also a quality I wanted to have in my design.
+
+
 ## Design Choices and Justification
 ### Simplicity
 Generally, simpler solutions to problems would be preferred, as they save on costs, are easier to implement and maintain, and are often more elegant.
@@ -40,6 +42,8 @@ I decided to opt for a decentralized grid mainly because the team and I decided 
 ### Standardization
 ### Redundancy
 ### Reliability
+
+
 ## Testing and Analysis
 
 
