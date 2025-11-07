@@ -21,31 +21,44 @@ Use this to have subsection if needed
 
 ## Enclosure Requirements
 The initial stages of the design cycle required a robust first-principles approach on my end, as these proposed enclosures were a completely new structure to be added to the vehicle. Anything I did for these enclosures would set a precedent for the team going forward, so it was imperative that I set a quality standard backed by testing and research to allow future team members more room to innovate. I began by establishing a list of criteria the enclosures had to fulfill based on the team's prior experience with our previous EV, "Mk. 10." Those criteria were:
-1. Simplicity - Wherever possible, I wanted to implement the simplest solution possible; simplicity was key.
-2. Serviceability - Due to the nature of FSAE, my team would require constant access to any component my enclosures contained for maintenance. For this reason, the serviceability of the enclosure needed to be well-developed, providing easy access to my team whenever they needed it.
-3. Weatherproofing - At competition, one of the static events is an inspection known as the rain test, where the car is subjected to a few minutes of jets of water meant to simulate a rainy environment. One of the chief concerns on my end would be preventing any of that water from potentially leaking into any of my enclosures, protecting the sensitive electronics inside. 
-4. Decentralization - Some electronics are positional and function in many different areas of the car, such as the wheels or dashboard. Instead of running wires from a centralized electronics box, I decided to opt for a decentralized approach, mounting electronics as close to the relevant areas of the car as possible.
-5. Form Factor - Enclosures needed to be as small and light as possible.
-6. Standardization - I decided to push for standardization of the hardware and design of the enclosures, and maintain maximal uniformity of the design across the car.
-7. Redundancy - In case of potential failure, I wanted to account for that by adding some redundancy to the design,
-8. Reliability - Minimizing the amount of maintenance required is also a quality I wanted to have in my design.
-
+### 1. Simplicity
+Wherever possible, I wanted to implement the simplest solution. Generally, simpler solutions to problems would be preferred, as they save on costs, are easier to implement and maintain, and are often more elegant.
+### 2. Servicability
+Due to the nature of FSAE, my team would require constant access to any component my enclosures contained for maintenance. For this reason, the serviceability of the enclosure needed to be well-developed, providing easy access to my team whenever they needed it.
+### 3. Weatherproofing
+At competition, one of the static events is an inspection known as the rain test, where the car is subjected to a few minutes of jets of water meant to simulate a rainy environment. One of the chief concerns on my end would be preventing any of that water from potentially leaking into any of my enclosures, protecting the sensitive electronics inside. 
+### 4. Decentralization
+I decided to opt for a decentralized grid mainly because it would be best to shorten the wire lengths wherever possible. The justification for this decision is that shorter wires would save weight and provide less potential for failure through disconnection, as shorter wires would naturally have less areas for any potential wire severance.
+### 5. Form Factor
+Enclosures needed to be as small and light as possible for the sake of the car's performance and footprint. Smaller and lighter enclosures would allow for more flexible assembly and maintenance in the car, and the reduced weight results in less mass to accelerate, allowing it to go faster using the same amount of energy.
+### 6. Standardization
+I decided to push for standardization of the hardware and design of the enclosures, and maintain maximal uniformity of the design across the car. This would help with simplicity and maintenance, as standardized hardware can allow for simpler maintenance routines.
+### 7. Redundancy
+In case of potential failure, I wanted to account for that by adding some redundancy to the design.
+### 8. Reliability
+Minimizing the amount of failure that could occur would be important for further expediting the maintenance process.
 
 ## Design Choices and Justification
-### Simplicity
-Generally, simpler solutions to problems would be preferred, as they save on costs, are easier to implement and maintain, and are often more elegant.
-### Servicability
-### Weatherproofing
-### Decentralization
-I decided to opt for a decentralized grid mainly because the team and I decided it would be best to shorten the wire lengths wherever possible. The justification for this decision is that shorter wires would save weight and provide less potential for failure through disconnection, as shorter wires would naturally have less areas for any potential wire severance.
-### Form Factor
-### Standardization
-### Redundancy
-### Reliability
+### Rectangular Form Factor
+A rectangular form factor fits the standard shape and design of most PCBs and is simple to manufacture. 
+### Heat-Set Inserts
+Maintenance would be easier
+### External Hex Bolt Fastening Method
+### O-Ring Sealing
+### Tab-Mounting
+### Vibration Damping PCB Standoffs
+### Chassis Positioning 
+### MX150 Connectors
+### Parametric CAD Assembly
+### Additive Manufacturing
+
+## Harness Design
 
 
 ## Testing and Analysis
-
+### Vibration Rig
+### Waterproofing Rig
+### Maintenance/Quality of Life Validation
 
 ## Embedding images 
 ### External images
