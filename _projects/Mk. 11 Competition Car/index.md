@@ -9,6 +9,9 @@ skills:
   - Rapid Prototyping
   - Development of manufacturing processes
   - Verification & Validation
+  - 
+### Role: Mechanical Design Lead – Electrical Integration
+### Context: Student electric vehicle / competition team
 
 main-image: /Electronics Packaging.png
 ---
