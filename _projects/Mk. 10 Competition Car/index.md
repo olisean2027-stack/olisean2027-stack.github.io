@@ -1,49 +1,44 @@
 ---
 layout: post
 title: Design & Validation of Dual-Loop Tractive Cooling System for Electric Vehicle
-### Role: Mechanical Design Lead – Electrical Integration
-### Context: Student electric vehicle / competition team
 description: 
     Led the mechanical design and validation of waterproof electrical enclosures and wiring layouts for an electric vehicle, improving manufacturability, serviceability, and system-level integration.
 skills: 
+  - MATLAB, Hand Calculations (Fluid Mechanics and Heat Transfer)
   - CAD
-  - 3-D Printing
-  - Rapid Prototyping
-  - Development of manufacturing processes
-  - Verification & Validation
+  - Flow meters, Temperature sensors
+
+### Role: Thermal Systems/Powertrain Engineer
+### Team Size: 3
 
 main-image: /Electronics Packaging.png
 ---
 
 ---
 ## Objective  
-The electrical system required robust waterproofing, organized wire routing, and rapid manufacturability while maintaining serviceability and minimizing cost, mass, and development time. The design needed to integrate seamlessly with existing mechanical and electrical subsystems.
+The electric motor and inverter required reliable thermal management under varying load conditions while maintaining electrical safety and minimizing parasitic losses. The cooling system needed to meet a target flow rate, integrate with existing vehicle hardware, and comply with safety constraints.
 
 ## Role and Responsibilities  
-- Led the mechanical design of electrical enclosures and wiring layouts
-- Coordinated integration between mechanical and electrical teams
-- Established manufacturing and validation processes for low-volume production
+- Performed analytical and experimental validation of the tractive cooling system
+- Developed thermal models for motor and inverter heat generation
+- Designed mechanical safety features for electrical hardware integration
 
 ## Technical Approach
-- Designed a complete wire-harness layout in SolidWorks Electrical, defining relative component positioning and wire lengths to improve organization, reduce excess wiring, and lower material cost
-- Developed a decision matrix in Microsoft Excel evaluating two likely waterproofing strategies based on cost, manufacturability, reliability, serviceability, and environmental resistance
-- Designed waterproof enclosures to a minimum IP65 rating for functionally critical PCBs and low-voltage batteries
-- Created a parametric, equation-driven assembly in SolidWorks, enabling rapid iteration across multiple vehicle configurations and reducing development time by approximately 50%
-- Established a standardized, cost-effective manufacturing workflow using 3D printing and laser cutting, enabling production of required part volumes within a five-day manufacturing cycle
-- Iteratively improved upon the servicability/quality of life by taking advantage of the manufacturing method and materials, implementing heat-set inserts, a dovetail O-ring sealing groove, and vibration-damping standoffs
+- Conducted head loss calculations across pumps, hoses, fittings, and heat exchangers to size components and predict system flow behavior
+- Collaborated with a two-person team to experimentally validate flow rates and pressure losses, achieving the target 12 L/min system flow
+- Developed a MATLAB-based thermal load analysis tool to model heat generation and rejection for the electric motor and inverter across operating conditions
+- Validated thermal models empirically and used results to optimize operating parameters, enabling a 5% improvement in overall energy efficiency
+- Engineered a mechanically interlocking connector system designed to enforce safety constraints and prevent improper installation of critical electrical hardware
 
 ## Verification and Validation
-Designed and executed enclosure validation testing, including:
-- Rain exposure testing using a custom rain-test rig
-- Vibration testing to assess mechanical robustness
-- Serviceability optimization ensuring enclosure open/close times under 30 seconds per maintenance cycle
-- Incorporated test feedback into iterative design improvements
+- Bench-tested cooling loops to correlate analytical head loss predictions with measured flow rates
+- Compared MATLAB thermal model outputs against experimental temperature data to validate accuracy
+- Verified mechanical safety constraints through fit, interference, and misuse-case testing
 
 ## Results and Outcomes
-- Improved electrical system organization and integration across vehicle subsystems
-- Reduced development time by 50% through parametric modeling
-- Achieved repeatable, low-cost manufacturing with rapid turnaround
-- Successfully validated enclosure designs against environmental and serviceability requirements
+- Achieved required 12 L/min flow rate across a multi-component dual-loop system
+- Improved system energy efficiency by 5% through validated thermal optimization
+- Increased electrical safety and robustness via mechanically enforced connector constraints
 
 ## Embedding images 
 ### External images
