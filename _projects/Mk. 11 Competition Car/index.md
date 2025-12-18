@@ -1,8 +1,8 @@
 ---
 layout: post
-title: FSAE Mk. 11 Competition EV
+title: Electrical Systems Packaging & Waterproofing for Electric Vehicle
 description: 
-    My contributions to my team's FSAE car, the "Mk. 11," involves the design of a series of robust standardized enclosures meant to house low-voltage electronics such as printed circuit boards (PCBs) and the low-voltage battery, as well as the physical layout of the wire harness throughout the chassis.
+    Led the mechanical design and validation of waterproof electrical enclosures and wiring layouts for an electric vehicle, improving manufacturability, serviceability, and system-level integration.
 skills: 
   - CAD
   - 3-D Printing
@@ -14,51 +14,34 @@ main-image: /project2.jpg
 ---
 
 ---
-## Header 2  
-Use this for the header of each section
-### Header 3 
-Use this to have subsection if needed
+## Objective  
+The electrical system required robust waterproofing, organized wire routing, and rapid manufacturability while maintaining serviceability and minimizing cost, mass, and development time. The design needed to integrate seamlessly with existing mechanical and electrical subsystems.
 
-## Enclosure Requirements
-The initial stages of the design cycle required a robust first-principles approach on my end, as these proposed enclosures were a completely new structure to be added to the vehicle. Anything I did for these enclosures would set a precedent for the team going forward, so it was imperative that I set a quality standard backed by testing and research to allow future team members more room to innovate. I began by establishing a list of criteria the enclosures had to fulfill based on the team's prior experience with our previous EV, "Mk. 10." Those criteria were:
-### 1. Simplicity
-Wherever possible, I wanted to implement the simplest solution. Generally, simpler solutions to problems would be preferred, as they save on costs, are easier to implement and maintain, and are often more elegant.
-### 2. Servicability
-Due to the nature of FSAE, my team would require constant access to any component my enclosures contained for maintenance. For this reason, the serviceability of the enclosure needed to be well-developed, providing easy access to my team whenever they needed it.
-### 3. Weatherproofing
-At competition, one of the static events is an inspection known as the rain test, where the car is subjected to a few minutes of jets of water meant to simulate a rainy environment. One of the chief concerns on my end would be preventing any of that water from potentially leaking into any of my enclosures, protecting the sensitive electronics inside. 
-### 4. Decentralization
-I decided to opt for a decentralized grid mainly because it would be best to shorten the wire lengths wherever possible. The justification for this decision is that shorter wires would save weight and provide less potential for failure through disconnection, as shorter wires would naturally have less areas for any potential wire severance.
-### 5. Form Factor
-Enclosures needed to be as small and light as possible for the sake of the car's performance and footprint. Smaller and lighter enclosures would allow for more flexible assembly and maintenance in the car, and the reduced weight results in less mass to accelerate, allowing it to go faster using the same amount of energy.
-### 6. Standardization
-I decided to push for standardization of the hardware and design of the enclosures, and maintain maximal uniformity of the design across the car. This would help with simplicity and maintenance, as standardized hardware can allow for simpler maintenance routines.
-### 7. Redundancy
-In case of potential failure, I wanted to account for that by adding some redundancy to the design.
-### 8. Reliability
-Minimizing the amount of failure that could occur would be important for further expediting the maintenance process.
+## Role and Responsibilities  
+- Led the mechanical design of electrical enclosures and wiring layouts
+- Coordinated integration between mechanical and electrical teams
+- Established manufacturing and validation processes for low-volume production
 
-## Design Choices and Justification
-### Rectangular Form Factor
-A rectangular form factor fits the standard shape and design of most PCBs and is simple to manufacture. 
-### Heat-Set Inserts
-Maintenance would be easier
-### External Hex Bolt Fastening Method
-### O-Ring Sealing
-### Tab-Mounting
-### Vibration Damping PCB Standoffs
-### Chassis Positioning 
-### MX150 Connectors
-### Parametric CAD Assembly
-### Additive Manufacturing
+## Technical Approach
+- Designed a complete wire-harness layout in SolidWorks Electrical, defining relative component positioning and wire lengths to improve organization, reduce excess wiring, and lower material cost
+- Developed a decision matrix in Microsoft Excel evaluating two likely waterproofing strategies based on cost, manufacturability, reliability, serviceability, and environmental resistance
+- Designed waterproof enclosures to a minimum IP65 rating for functionally critical PCBs and low-voltage batteries
+- Created a parametric, equation-driven assembly in SolidWorks, enabling rapid iteration across multiple vehicle configurations and reducing development time by approximately 50%
+- Established a standardized, cost-effective manufacturing workflow using 3D printing and laser cutting, enabling production of required part volumes within a five-day manufacturing cycle
+- Iteratively improved upon the servicability/quality of life by taking advantage of the manufacturing method and materials, implementing heat-set inserts, a dovetail O-ring sealing groove, and vibration-damping standoffs
 
-## Harness Design
+## Verification and Validation
+Designed and executed enclosure validation testing, including:
+- Rain exposure testing using a custom rain-test rig
+- Vibration testing to assess mechanical robustness
+- Serviceability optimization ensuring enclosure open/close times under 30 seconds per maintenance cycle
+- Incorporated test feedback into iterative design improvements
 
-
-## Testing and Analysis
-### Vibration Rig
-### Waterproofing Rig
-### Maintenance/Quality of Life Validation
+## Results and Outcomes
+- Improved electrical system organization and integration across vehicle subsystems
+- Reduced development time by 50% through parametric modeling
+- Achieved repeatable, low-cost manufacturing with rapid turnaround
+- Successfully validated enclosure designs against environmental and serviceability requirements
 
 ## Embedding images 
 ### External images
