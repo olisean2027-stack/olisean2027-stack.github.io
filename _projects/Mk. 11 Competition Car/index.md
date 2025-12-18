@@ -47,9 +47,7 @@ Designed and executed enclosure validation testing, including:
 - Successfully validated enclosure designs against environmental and serviceability requirements
 
 ## Images
-{% include image-gallery.html images="image.png" height="400" %} 
-place the images in project folder/images then update the file path.   
-
+{% include image-gallery.html images="image.png" height="400" %}    
 
 ## Videos
 {% include youtube-video.html id="LM9KusQlw3U" autoplay= "false"%}
